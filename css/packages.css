@@ -1,0 +1,90 @@
+main {
+	padding-top: 32px;
+
+}
+.background {
+	background-image: url("../images/plans-background.jpg");
+	width:100%;
+	height:100%;
+	position:fixed;
+	z-index:-1;
+}
+.section-main{
+	border:4px solid #0e4f1f ;
+	border-left: 0px;
+	margin:25px 0px 25px 0px;
+	width: 80%;
+	position:relative;
+}
+.section-main:hover,
+.section-main:active{
+	box-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+	border-color:#ff5454; 
+
+}
+
+.a-section-main {
+	text-decoration: none;
+	display: block;
+	color: inherit;
+	padding: 32px;
+}
+/*.title2-section-main-recommended {
+	position:absolute;
+	top: 0;
+	right:0;
+	margin:20px;
+	font-size:12px;
+	padding:8px;
+	color:white;
+	background-image:src("/images/recommended.jpg")
+	
+}*/
+#reco{
+	position:absolute;
+	top:-50px;
+	right:-60px;
+	width:150px;
+	
+}
+.clearfix{
+	clear: both;
+}
+.section-plus-main{
+
+	background: rgba(213, 255, 220,0.95);
+	margin:70px 0 25px 0 ;
+}
+.section-free-main{
+	background: rgba(234, 252, 237,0.95);
+	float: right;
+	border: 4px solid #0e4f1f;
+	border-right: 0px;
+	text-align: right;
+
+}.section-premium-main{
+	background: rgba(14, 79, 31,0.95);
+}
+.title-section-main{
+color: black;
+margin: 30px;
+}
+.section-premium-main .title-section-main{
+	color: white;
+}
+.title2-section-main{
+	color: #979797;
+	margin: 30px;
+
+}
+.paragraph-section-main{
+	border:1px solid #0e4f1f;
+	padding: 16px;
+	color: #0e4f1f;
+	font-size: 20px;
+	background: white;
+}
+.section-premium-main .title2-section-main{
+	color:#bbb;
+}
+

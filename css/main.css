@@ -1,0 +1,132 @@
+/*PRODUCT OVERVIEW*/
+#product-overview{
+   background-image:url("../images/freedom.jpg");
+   width:100%;
+   height:528px;
+   padding:10px;
+   margin-top:20px;
+
+ }
+
+.section-title {
+    color: #2ddf5c;
+    text-align:center;
+}
+
+#product-overview h1 {
+    color: white;
+    font-family: 'Anton', sans-serif;
+
+}
+.plan__list{
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+.plan{
+  background:#d5ffdc;
+  text-align:center;
+  border:5px #d5ffdc solid;
+  padding:16px;
+  margin:8px;
+  display:inline-block;
+  width:30%;
+  vertical-align:middle;
+ }
+.plan__title{
+    color:#0e4f1f;
+}
+.plan__price{
+    color:rgb(133,133,133); 
+}
+.plan__highlighted .plan__title{
+  color:rgba(255,255,255);
+}
+.plan__highlighted .plan__price{
+  color:rgba(0,25,0,0.5);
+}
+ .plan__feastures{
+  list-style:none;
+  margin:0px;
+  padding:0px;
+ }
+ .plan__feastures li{
+  margin:10px 0px;
+ }
+ 
+.plan__highlighted{
+  background:#19b84c;
+  color:white;
+  box-shadow:5px 2px 10px 5px rgba(0,0,0,0.5);
+}
+
+.plan__annotation{
+  background:rgba(255,255,255,3);
+  color:rgba(0,0,0,0.5);
+  padding:8px;
+  box-shadow:2px 2px 2px 2px rgba(0,0,0,0.5);
+  border-radius:7px;
+}
+.key-feature {
+  background-color:#ff1b68;
+  margin-top:80px; 
+  padding:16px; 
+  color:white;
+}
+.key-feature .section-title{
+  color: white;
+  margin: 32px;
+}
+
+.key-feature_uls{
+  margin: 0px;
+  list-style:none;
+  padding: 0px; 
+  text-align: center;
+
+}
+.key-feature_uls_li {
+  display: inline-block;
+  width:30%; 
+  vertical-align:top;
+}
+.key-feature div{
+  width: 128px; 
+  height: 128px;
+  background: #ffcede;
+  border: 2px solid #424242;
+  border-radius: 50%;
+  margin: auto;
+
+}
+.key-feature_uls_li_p{
+text-align: center;
+font-weight: bold;
+color: white;
+font-size: 20px;
+}
+.plan__button{
+background: #0e4f1f;
+color: white;
+font:inherit;
+border: 1.5px solid #0e4f1f;
+padding: 8px;
+border-radius: 8px;
+font-weight: bold;
+cursor: pointer;
+}
+.plan__button:hover,
+.plan__button:active{
+  background: white;
+  color: #0e4f1f;
+}
+.plan__button:focus{
+  outline: none;
+}
+
+
+/* h1 {
+    font-family: sans-serif;
+} */
+/*FOOTER*/
+
